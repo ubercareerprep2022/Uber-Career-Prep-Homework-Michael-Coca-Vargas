@@ -115,19 +115,4 @@ public class Part1
         
         return isDuplicate;
     }
-    
-    public static void main(String[] args) {
-        List<Integer> list1 = new ArrayList<>();
-        list1.add(1);list1.add(2);list1.add(3);list1.add(4);list1.add(5);
-        System.out.println(pairsThatEqualSum(list1, 5));
-        System.out.println(pairsThatEqualSum(list1, 1));
-        System.out.println(pairsThatEqualSum(list1, 7));
-        
-        
-        /*
-         == [(1, 4), (2, 3)]
-         pairsThatEqualSum(inputArray: [1, 2, 3, 4, 5], targetSum: 1) == []
-         pairsThatEqualSum(inputArray: [1, 2, 3, 4, 5], targetSum: 7) == [(2, 5), (3, 4)]
-         */
-    }
 }
